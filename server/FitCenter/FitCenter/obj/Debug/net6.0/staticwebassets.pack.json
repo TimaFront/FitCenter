@@ -1,0 +1,393 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FitCenter.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FitCenter.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\css\\bas.css",
+      "PackagePath": "staticwebassets\\css\\bas.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\css\\coach.css",
+      "PackagePath": "staticwebassets\\css\\coach.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\css\\karti.css",
+      "PackagePath": "staticwebassets\\css\\karti.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\css\\kont.css",
+      "PackagePath": "staticwebassets\\css\\kont.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\css\\krio.css",
+      "PackagePath": "staticwebassets\\css\\krio.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\css\\vakansii.css",
+      "PackagePath": "staticwebassets\\css\\vakansii.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image.rar",
+      "PackagePath": "staticwebassets\\image.rar"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\bas\\1.jpg",
+      "PackagePath": "staticwebassets\\image\\bas\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\bas\\2.jpg",
+      "PackagePath": "staticwebassets\\image\\bas\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\card\\card1.jpg",
+      "PackagePath": "staticwebassets\\image\\card\\card1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\card\\card2.jpg",
+      "PackagePath": "staticwebassets\\image\\card\\card2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\card\\card3.jpg",
+      "PackagePath": "staticwebassets\\image\\card\\card3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\card\\card4.jpg",
+      "PackagePath": "staticwebassets\\image\\card\\card4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\card\\card5.jpg",
+      "PackagePath": "staticwebassets\\image\\card\\card5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\card\\card6.jpg",
+      "PackagePath": "staticwebassets\\image\\card\\card6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\card\\card7.jpg",
+      "PackagePath": "staticwebassets\\image\\card\\card7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\card\\card8.jpg",
+      "PackagePath": "staticwebassets\\image\\card\\card8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\footer\\inst.png",
+      "PackagePath": "staticwebassets\\image\\footer\\inst.png"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\footer\\vk.png",
+      "PackagePath": "staticwebassets\\image\\footer\\vk.png"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\header\\1.png",
+      "PackagePath": "staticwebassets\\image\\header\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\header\\2.jpg",
+      "PackagePath": "staticwebassets\\image\\header\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\header\\arrow.png",
+      "PackagePath": "staticwebassets\\image\\header\\arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\header\\logo.png",
+      "PackagePath": "staticwebassets\\image\\header\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\karti\\close.png",
+      "PackagePath": "staticwebassets\\image\\karti\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\krio\\krio2.jpg",
+      "PackagePath": "staticwebassets\\image\\krio\\krio2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\map\\loc.png",
+      "PackagePath": "staticwebassets\\image\\map\\loc.png"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\tab\\1.jpg",
+      "PackagePath": "staticwebassets\\image\\tab\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\tab\\2.jpg",
+      "PackagePath": "staticwebassets\\image\\tab\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\tab\\3.jpg",
+      "PackagePath": "staticwebassets\\image\\tab\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\tab\\4.jpg",
+      "PackagePath": "staticwebassets\\image\\tab\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\tab\\5.jpg",
+      "PackagePath": "staticwebassets\\image\\tab\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\image\\tab\\6.jpg",
+      "PackagePath": "staticwebassets\\image\\tab\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FitCenter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FitCenter.props",
+      "PackagePath": "build\\FitCenter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FitCenter.props",
+      "PackagePath": "buildMultiTargeting\\FitCenter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FitCenter.props",
+      "PackagePath": "buildTransitive\\FitCenter.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

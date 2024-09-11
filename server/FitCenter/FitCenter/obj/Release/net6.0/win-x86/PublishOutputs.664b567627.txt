@@ -1,0 +1,5 @@
+C:\Users\ТИМИРХАН\Desktop\SAIT\kursovaya\server\FitCenter\FitCenter\obj\Release\net6.0\win-x86\PubTmp\Out\appsettings.Development.json
+C:\Users\ТИМИРХАН\Desktop\SAIT\kursovaya\server\FitCenter\FitCenter\obj\Release\net6.0\win-x86\PubTmp\Out\appsettings.json
+C:\Users\ТИМИРХАН\Desktop\SAIT\kursovaya\server\FitCenter\FitCenter\obj\Release\net6.0\win-x86\PubTmp\Out\FitCenter.pdb
+C:\Users\ТИМИРХАН\Desktop\SAIT\kursovaya\server\FitCenter\FitCenter\obj\Release\net6.0\win-x86\PubTmp\Out\aspnetcorev2_inprocess.dll
+C:\Users\ТИМИРХАН\Desktop\SAIT\kursovaya\server\FitCenter\FitCenter\obj\Release\net6.0\win-x86\PubTmp\Out\FitCenter.exe

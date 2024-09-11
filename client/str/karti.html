@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Абонемент</title>
+    <link rel="FitCenter" href="../image/header/logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="karti.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700;900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f29f08a95.js" crossorigin="anonymous"></script>
+	<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+</head>
+    <button class="open-button" onclick="openForm()">Сообщить о проблемах в работе сайта</button>
+
+	<div class="chat-popup" id="myForm">
+        
+        <form action="/" method="post" class="form-container">
+            <label for="msg"><b>Информация</b></label>
+            <textarea id="id_textarea" placeholder="Не работает..." name="msg" required></textarea>
+            <button type="submit" class="btn">Отправить</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+        </form>
+
+	</div>
+
+    <header class = "header" id="header">
+
+        <div class = "container">
+
+            <div class = "header__inner">
+
+                <div class = "header__logotype">
+                    <a href="../index.html"> <img class = "header__logo" src="../image/header/logo.png" alt="FitCenter"> </a>
+                </div> <!-- header__logotype -->
+
+                <nav class="nav" id="nav">
+                    <div><a href="../index.html#card" class="nav__link"> Тренеры </a></div>
+                    <div><a href="krio.html" class="nav__link"> Криосауна </a></div>
+                    <div><a href="bas.html" class="nav__link"> Бассейн </a></div>
+					<div><a href="karti.html" class="nav__link"> Абонементы </a></div>
+					<div class="accordion">
+						<a class="nav__link" onclick="show_list()">Информация<i class="fa fa-caret-down"></i></a>
+						<div id="accordionId" class="accordion__info-content">
+							<a href="vakansii.html">Вакансии</a>
+							<a href="kont.html">Контакты</a>
+						</div>
+					</div>
+                    <div>
+						<a href="tel:+79298669600" class="header__phone"><i class="fa-solid fa-phone-flip"></i>+7 (928) 866-96-00</a>
+					</div>
+                </nav>
+
+                <button class="nav-toggle" id="nav__toggle" type="button">
+					<h2 class="nav-toggle__item">Menu</h2>
+				</button>
+
+            </div> <!-- header__inner -->
+
+        </div> <!-- container -->
+
+    </header> <!--header -->
+
+    <div class="page">
+
+        <section class="section section--kont">
+			
+			<div class="container">
+
+				<div class="karti__inner">
+                    <div class="karti__prod">
+                        <div class="karti__glav"> 
+                            <a href="../index.html" class="section__btn"> Главная /</a>
+                            <a href="#" data-scroll="#header" class="section__btn"> Абонементы /</a>
+                        </div> 
+                        <h3 class="karti__suptitle">Абонементы</h3>
+                    </div> <!-- karti__prod -->
+
+                    <div class="karti__header">
+                        <h1 class="karti__title">Абонементы</h1>
+                    </div> <!-- karti__header -->
+
+					<div class="section__header">
+                        <p class="section__text">Мы любим фитнес и знаем о нем всё. Мы постоянно ищем новые идеи, разработки, технологии: мы создаём FITCENTER-уникальный клуб, где лучшие традиции фитнеса дополнены новейшими достижениями науки. Мы делаем это, чтобы вы могли достичь лучших результатов и изменили свою жизнь.</p>
+                    </div> <!-- section__header -->
+                
+                </div> <!-- karti__inner -->
+
+            </div> <!-- container -->
+
+        </section>
+
+        <section class="karti">
+
+            <div class="container">
+
+                <div class="karti__cont">
+                    <div class="karti__item">
+                        <a href="#" id="card-choice" data-modal-button="modal-1">
+                            <div class="karti__left">
+                                <h3>FITCENTER DAY</h3>
+                                <div>
+                                    <p>Клубное членство полного формата. Карта FITCENTER DAY подойдет тем, кто живет в свободном графике и не зависит от внешних обстоятельств.</p>
+                                </div>
+                            </div>
+                            <div class="karti__right">
+                                30 000 руб/год
+                            </div>
+                        </a>
+                        <div class="modal__window" id="modal-1" data-modal>
+                            <div class="modal__window__inner modal-close"></div>
+                            <div class="modal modal--card">
+                                <a href="#" class="modal__close modal-close" data-modal-close></a>
+                                <div class="modal__body">
+                                    <div class="modal__title">
+                                        <h2> FITCENTER DAY </h2>
+                                    </div>
+                                    <div class="modal__sum">30 000 руб/год</div>
+                                    <div class="modal__text">
+                                        <h3>FIT START</h3>
+                                        <ul>
+                                            <li>1 функциональное тестирование с персональной тренировкой в тренажерном зале</li>
+                                            <li>1 персональная тренировка на выбор</li>
+                                            <li>1 функциональное тестировани</li>
+                                            <li>массаж</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <h3>Условия и привилегии</h3>
+                                        <ul>
+                                            <li>посещение клуба по будням: 10.00-17.00, по выходным: 08.00-00.00</li>
+                                            <li>тренажерный зал/зона боевых искусств/бассейн</li>
+                                            <li>криосауна</li>
+                                            <li>клубничные конфетки</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <ul>
+                                            <li>10% на покупку абонемента для ребёнка</li>
+                                            <li>30% на продление абонемента</li>
+                                        </ul>                            
+                                    </div>
+                                </div>
+        
+                                <div class="modal__bottom">
+                                    <div class="modal-form__title">Узнать больше</div>
+                                    <div class="modal-form__text">Пожалуйста, заполните форму, мы свяжемся с вами совсем скоро.</div>
+                                    <form id="card_2" class="modal-form__form" action="#" method="#">
+                                        <input type="hidden" name="Имя" value="Данные из поля hidden">
+                                        <div class="modal__input">
+                                            <input type="text" class="modal__inputbox modal__inputbox--border" name="name" placeholder="Имя *" required="">
+                                        </div>
+                                        <div class="modal__input">
+                                            <input type="text" class="modal__inputbox modal__inputbox--border" name="tel" placeholder="Телефон *" required="">
+                                        </div>
+                                        <div class="modal-form__polic">Нажимая на кнопку «Отправить», я соглашаюсь на <a href="/uploads/Politika-konfidencial'nosti-1609247279.pdf" target="_blank">обработку персональных данных</a> в соответствии с политикой конфиденциальности.</div>
+                                        <div class="modal-form__btn">
+                                            <button type="submit" class="modal__button">
+                                                <span class="text-more__text">Отправить</span>
+                                                <svg version="1.1" x="0px" y="0px" viewBox="0 0 30 11" enable-background="new 0 0 30 11" class="arrow-long text-more__arrow-long">
+                                                    <polygon points="24.318,10.318 23.682,9.682 27.863,5.5 23.682,1.318 24.318,0.682 29.137,5.5 " class="arrow-long__curve"></polygon>
+                                                    <rect y="5" width="28" height="1" class="arrow-long__line"></rect>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <input type="hidden" id="title" name="title" value="FITCENTER DAY ">
+                                        <input type="hidden" name="url" value="https://kinext.ru/type">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="karti__item">
+                        <a href="#" id="card-choice" data-modal-button="modal-2">
+                            <div class="karti__left">
+                                <h3>FITCENTER</h3>
+                                <div>
+                                    <p>Самый рациональный вид клубного членства. Карта FITCENTER подойдет тем, кому нужны высокотехнологичные тренировки и быстрые результаты.</p>
+                                </div>
+                            </div>
+                            <div class="karti__right">
+                                35 000 руб/год
+                            </div>
+                        </a>
+                        <div class="modal__window" id="modal-2"  data-modal>
+                            <div class="modal__window__inner modal-close"></div>
+                            <div class="modal modal--card">
+                                <a href="" class="modal__close modal-close" data-modal-close></a>
+                                <div class="modal__body">
+                                    <div class="modal__title">
+                                        <h2> FITCENTER </h2>
+                                    </div>
+                                    <div class="modal__sum">35 000 руб/год</div>
+                                    <div class="modal__text">
+                                        <h3>FIT START</h3>
+                                        <ul>
+                                            <li>1 функциональное тестирование с персональной тренировкой в тренажерном зале</li>
+                                            <li>1 персональная тренировка на выбор</li>
+                                            <li>1 функциональное тестировани</li>
+                                            <li>массаж</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <h3>Условия и привилегии</h3>
+                                        <ul>
+                                            <li>посещение клуба по будням: 06.30-00.00, по выходным: 08.00-00.00</li>
+                                            <li>тренажерный зал/зона боевых искусств</li>
+                                            <li>12 посещений криосауны за период клубного членства </li>
+                                            <li>клубничные конфетки</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <ul>
+                                            <li>10% на покупку абонемента для ребёнка</li>
+                                            <li>30% на продление абонемента</li>
+                                        </ul>                            
+                                    </div>
+                                </div>
+        
+                                <div class="modal__bottom">
+                                    <div class="modal-form__title">Узнать больше</div>
+                                    <div class="modal-form__text">Пожалуйста, заполните форму, мы свяжемся с вами совсем скоро.</div>
+                                    <form id="card_2" class="modal-form__form" action="/type/subscribe2" method="post">
+                                        <input type="hidden" name="_csrf-frontend" value="qc4471Hb8r8Oq3CImvD0hYS6shGwQLeGrkORhClwsfL4l0KXM7PK50L7B_GrtY3vxuKGS_MsgL7XBMPtYCHuuA==">
+                                        <div class="modal__input">
+                                            <input type="text" class="inputbox inputbox--border-bottom" name="name" placeholder="Имя *" required="">
+                                        </div>
+                                        <div class="modal__input">
+                                            <input type="text" id="w1" class="inputbox inputbox--border-bottom" name="tel" placeholder="Телефон *" required="" data-plugin-inputmask="inputmask_5b3177d1">                            </div>
+                                        <div class="modal-form__polic">Нажимая на кнопку «Отправить», я соглашаюсь на <a href="/uploads/Politika-konfidencial'nosti-1609247279.pdf" target="_blank">обработку персональных данных</a> в соответствии с политикой конфиденциальности.</div>
+                                        <div class="modal-form__btn">
+                                            <button type="submit" class="modal__button">
+                                                <span class="text-more__text">Отправить</span>
+                                                <svg version="1.1" x="0px" y="0px" viewBox="0 0 30 11" enable-background="new 0 0 30 11" class="arrow-long text-more__arrow-long">
+                                                    <polygon points="24.318,10.318 23.682,9.682 27.863,5.5 23.682,1.318 24.318,0.682 29.137,5.5 " class="arrow-long__curve"></polygon>
+                                                    <rect y="5" width="28" height="1" class="arrow-long__line"></rect>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <input type="hidden" id="title" name="title" value="FITCENTER">
+                                        <input type="hidden" name="url" value="https://kinext.ru/type">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="karti__item">
+                        <a href="#" data-modal-button="modal-3">
+                            <div class="karti__left">
+                                <h3>FITCENTER +</h3>
+                                <div>
+                                    <p>FITCENTER + открывает двери во все фитнес-зоны в любое время. Карта подойдет тем, кто хочет использовать возможности клуба по максимуму.</p>
+                                </div>
+                            </div>
+                            <div class="karti__right">
+                                50 000 руб/год
+                            </div>
+                        </a>
+                        <div class="modal__window" id="modal-3"  data-modal>
+                            <div class="modal__window__inner modal-close"></div>
+                            <div class="modal modal--card">
+                                <a href="#" class="modal__close modal-close" data-modal-close></a>
+                                <div class="modal__body">
+                                    <div class="modal__title">
+                                        <h2> FITCENTER DAY </h2>
+                                    </div>
+                                    <div class="modal__sum">30 000 руб/год</div>
+                                    <div class="modal__text">
+                                        <h3>FIT START</h3>
+                                        <ul>
+                                            <li>1 функциональное тестирование с персональной тренировкой в тренажерном зале</li>
+                                            <li>1 персональная тренировка на выбор</li>
+                                            <li>1 функциональное тестирование</li>
+                                            <li>массаж</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <h3>Условия и привилегии</h3>
+                                        <ul>
+                                            <li>посещение клуба по будням: 06.30-00.00, по выходным: 08.00-00.00</li>
+                                            <li>тренажерный зал/зона боевых искусств/бассейн</li>
+                                            <li>криосауна</li>
+                                            <li>клубничные конфетки</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <ul>
+                                            <li>10% на покупку абонемента для ребёнка</li>
+                                            <li>30% на продление абонемента</li>
+                                            <li>клубничные конфетки</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <ul>
+                                            <li>2 гостевых визита</li>
+                                            <li>30 дней заморозки</li>
+                                        </ul>                            
+                                    </div>
+                                </div>
+        
+                                <div class="modal__bottom">
+                                    <div class="modal-form__title">Узнать больше</div>
+                                    <div class="modal-form__text">Пожалуйста, заполните форму, мы свяжемся с вами совсем скоро.</div>
+                                    <form id="card_2" class="modal-form__form" action="/type/subscribe2" method="post">
+                                        <input type="hidden" name="_csrf-frontend" value="qc4471Hb8r8Oq3CImvD0hYS6shGwQLeGrkORhClwsfL4l0KXM7PK50L7B_GrtY3vxuKGS_MsgL7XBMPtYCHuuA==">
+                                        <div class="modal__input">
+                                            <input type="text" class="inputbox inputbox--border-bottom" name="name" placeholder="Имя *" required="">
+                                        </div>
+                                        <div class="modal__input">
+                                            <input type="text" id="w1" class="inputbox inputbox--border-bottom" name="tel" placeholder="Телефон *" required="" data-plugin-inputmask="inputmask_5b3177d1">                            </div>
+                                        <div class="modal-form__polic">Нажимая на кнопку «Отправить», я соглашаюсь на <a href="/uploads/Politika-konfidencial'nosti-1609247279.pdf" target="_blank">обработку персональных данных</a> в соответствии с политикой конфиденциальности.</div>
+                                        <div class="modal-form__btn">
+                                            <button type="submit" class="modal__button">
+                                                <span class="text-more__text">Отправить</span>
+                                                <svg version="1.1" x="0px" y="0px" viewBox="0 0 30 11" enable-background="new 0 0 30 11" class="arrow-long text-more__arrow-long">
+                                                    <polygon points="24.318,10.318 23.682,9.682 27.863,5.5 23.682,1.318 24.318,0.682 29.137,5.5 " class="arrow-long__curve"></polygon>
+                                                    <rect y="5" width="28" height="1" class="arrow-long__line"></rect>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <input type="hidden" id="title" name="title" value="KINEXT + ">
+                                        <input type="hidden" name="url" value="https://kinext.ru/type">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="karti__item">
+                        <a href="#" data-modal-button="modal-4">
+                            <div class="karti__left">
+                                <h3>FITCENTER GOLD</h3>
+                                <div>
+                                    <p>Дополнительный сервис, высокий уровень комфорта, уникальные форматы тренировок: карта FITCENTER GOLD-для тех, кто хочет большего.</p>
+                                </div>
+                            </div>
+                            <div class="karti__right">
+                                70 000 руб/год
+                            </div>
+                        </a>
+                        <div class="modal__window" id="modal-4" data-modal>
+                            <div class="modal__window__inner modal-close" data-modal-close></div>
+                            <div class="modal modal--card">
+                                <a href="" class="modal__close modal-close"></a>
+                                <div class="modal__body">
+                                    <div class="modal__title">
+                                        <h2> FITCENTER DAY </h2>
+                                    </div>
+                                    <div class="modal__sum">30 000 руб/год</div>
+                                    <div class="modal__text">
+                                        <h3>FIT START</h3>
+                                        <ul>
+                                            <li>1 функциональное тестирование с персональной тренировкой в тренажерном зале</li>
+                                            <li>1 персональная тренировка на выбор</li>
+                                            <li>3 функциональных тестирования</li>
+                                            <li>массаж</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <h3>Условия и привилегии</h3>
+                                        <ul>
+                                            <li>посещение клуба по будням: 06.30-00.00, по выходным: 08.00-00.00</li>
+                                            <li>тренажерный зал/зона боевых искусств/бассейн</li>
+                                            <li>криосауна</li>
+                                            <li>клубничные конфетки</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <ul>
+                                            <li>10% на покупку абонемента для ребёнка</li>
+                                            <li>30% на продление абонемента</li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <ul>
+                                            <li>10 гостевых визита</li>
+                                            <li>90 дней заморозки</li>
+                                            <li>полотенца и халаты в свободном доступе</li>
+                                        </ul>                            
+                                    </div>
+                                </div>
+        
+                                <div class="modal__bottom">
+                                    <div class="modal-form__title">Узнать больше</div>
+                                    <div class="modal-form__text">Пожалуйста, заполните форму, мы свяжемся с вами совсем скоро.</div>
+                                    <form id="card_2" class="modal-form__form" action="/type/subscribe2" method="post">
+                                        <input type="hidden" name="_csrf-frontend" value="qc4471Hb8r8Oq3CImvD0hYS6shGwQLeGrkORhClwsfL4l0KXM7PK50L7B_GrtY3vxuKGS_MsgL7XBMPtYCHuuA==">
+                                        <div class="modal__input">
+                                            <input type="text" class="inputbox inputbox--border-bottom" name="name" placeholder="Имя *" required="">
+                                        </div>
+                                        <div class="modal__input">
+                                            <input type="text" id="w1" class="inputbox inputbox--border-bottom" name="tel" placeholder="Телефон *" required="" data-plugin-inputmask="inputmask_5b3177d1">                            </div>
+                                        <div class="modal-form__polic">Нажимая на кнопку «Отправить», я соглашаюсь на <a href="/uploads/Politika-konfidencial'nosti-1609247279.pdf" target="_blank">обработку персональных данных</a> в соответствии с политикой конфиденциальности.</div>
+                                        <div class="modal-form__btn">
+                                            <button type="submit" class="text-more text-more--xl">
+                                                <span class="text-more__text">Отправить</span>
+                                                <svg version="1.1" x="0px" y="0px" viewBox="0 0 30 11" enable-background="new 0 0 30 11" class="arrow-long text-more__arrow-long">
+                                                    <polygon points="24.318,10.318 23.682,9.682 27.863,5.5 23.682,1.318 24.318,0.682 29.137,5.5 " class="arrow-long__curve"></polygon>
+                                                    <rect y="5" width="28" height="1" class="arrow-long__line"></rect>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <input type="hidden" id="title" name="title" value="KINEXT DAY ">
+                                        <input type="hidden" name="url" value="https://kinext.ru/type">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- karti__inner -->
+
+            </div> <!-- container -->
+
+        </section> <!-- karti -->
+
+        <section class="section section--map" id="map">
+
+			<div class="map">
+
+				<div class="map__img">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1459.4869808082685!2d47.504465673175076!3d42.97882213895426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404ea05e9b6ea35d%3A0x783379e1e8a2426b!2z0YPQuy4g0JTQsNGF0LDQtNCw0LXQstCwLCAzMSwg0JzQsNGF0LDRh9C60LDQu9CwLCDQoNC10YHQvy4g0JTQsNCz0LXRgdGC0LDQvSwgMzY3MDAz!5e0!3m2!1sru!2sru!4v1667509161756!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div> 
+
+			</div> <!-- map -->
+
+		</section> <!-- section -->
+
+		<footer class="footer">
+
+			<div class="container">
+
+				<div class="footer__inner">
+					
+					<div class="footer__left">
+						<div class="footer__logotype">
+							<img class="footer__logo" src="../image/header/logo.png" alt="ЛОГО">
+                        </div>
+					</div>
+
+					<div class="footer__right">
+						<div class="footer__header">
+
+							<div class="footer__leftcol">
+								<div class="footer__height">
+									<div class="footer__supcol" data-scroll="#card"> 
+										<a href="#">Тренера</a> 
+									</div>
+									<div class="footer__col">
+										<div><a href="#" data-scroll="#">Фитнес-Тренер</a></div>
+										<div><a href="#" data-scroll="#">Тренер по кроссфиту</a></div>
+										<div><a href="#" data-scroll="#">Тренер по БЕ</a></div>
+									</div>
+								</div>
+
+								<div class="footer__height">
+									<div class="footer__footcol">
+										<a href="#">Залы</a>
+									</div>
+									<div class="footer__col">
+										<div><a href="index.html">Фитнес-Зал</a></div>
+										<div><a href="bas.html">Бассейн</a></div>
+										<div><a href="krio.html">Криосауна</a></div>
+									</div>
+								</div>
+							</div> <!-- footer_bojki -->
+
+							<div class="footer__centercol">
+								<div class="footer__height">	
+
+									<div class="footer__supcol"> 
+										<a href="#" data-scroll="#info">Информация</a> 
+									</div>
+
+									<div class="footer__col">
+										<div><a href="vakansii.html">Вакансии</a></div>
+										<div><a href="kont.html">Контакты</a></div>
+									</div>	
+
+								</div>
+								<div class="footer__height">
+
+									<div class="footer__footcol"> 
+										<a href="#" data-scroll="#map">Наш адрес</a> 
+									</div>
+									<div class="footer__col"> 
+										<a href="https://goo.gl/maps/b6JYfiHjMFQEgzds5" target="_blank">ул. Дахадаева, 31, д.1</a> 
+									</div>
+
+								</div>
+							</div> <!-- footer_info -->
+
+							<div class="footer__rightcol">
+								<div>
+
+									<div class="footer__supcol"> 
+										<a href="#">Запись</a> 
+									</div>
+
+									<div class="footer__num">
+										<a class="footer__tel" href="tel:+70298669600">+7 (929) 866-96-00</a>
+									</div>
+
+									<p>с 09:00 до 24:00 без выходных</p>
+
+									<div class="footer__what">
+										<a href="https://wa.me/79298669600?text=Здравствуйте%2C+у+меня+есть+вопрос">Написать в Whatsapp</a>
+									</div>
+
+									<div class="footer__mail">	
+										<a href="mailto:timagadjiev5@gmail.com">FINCENTER@mail.ru</a>
+									</div>
+
+								</div>
+							</div> <!-- footer__zakaz -->
+						</div> <!-- footer__header -->
+						
+						<div class="footer__section">
+							<div>Подписывайтесь на нас:</div>
+
+							<div class="footer__vk">
+								<a href="#">Вконтакте</a>
+							</div>
+
+							<div class="footer__insta">
+								<a href="#">Instagram</a>
+							</div>	
+						</div> <!-- footer__section -->
+
+						<div class="footer__footer">
+							
+							<div>
+
+								2022 © «FITCENTER» Воспроизведение или распространение материалов с сайта в любой форме может производиться только с письменного разрешения правообладателя. При использовании материалов — ссылка на правообладателя и источник заимствования обязательна.
+
+							</div>
+
+							<div>
+								
+								Сайт не является публичной офертой и носит информационный характер.
+
+							</div>
+
+							<a href="№">Политика конфиденциальности</a>
+
+						</div> <!-- footer__footer -->
+
+					</div> <!-- footer__right -->
+
+				</div> <!-- footer__inner -->
+			</div> <!-- container -->
+
+		</footer>
+
+    </div>
+    <script src="../js/app.js"></script>
+</body>
+</html>

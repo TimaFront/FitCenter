@@ -1,0 +1,1354 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+input,button,textarea{font-family:inherit;}
+nav,footer,header,aside{display: block;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/* ------------------------------------------------------------------------- */
+.fa-phone-flip {
+	margin-right: 10px;
+}
+
+.fa {
+	padding-left: 10px;
+}
+
+.open-button {
+	background-color: #555;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.5;
+	position: fixed;
+	bottom: 23px;
+	right: 28px;
+	width: 280px;
+	z-index: 1;
+}
+/* Всплывающий чат - скрыт по умолчанию */
+.chat-popup {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: 3px solid #373636;
+	z-index: 2;
+}
+
+  /* Добавление стилей в контейнер формы */
+.form-container {
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+}
+  
+  /* Полноразмерная текстовая область */
+.form-container textarea {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	resize: none;
+	min-height: 200px;
+}
+  
+  /* Когда текстовая область получит фокус, сделайте что-нибудь */
+.form-container textarea:focus {
+	background-color: #ddd;
+	outline: none;
+}
+  
+  /* Установите стиль для кнопки отправить/кнопка */
+.form-container .btn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+}
+  
+  /* Добавьте красный цвет фона к кнопке отмена */
+.form-container .cancel {
+	background-color: red;
+}
+  
+  /* Добавьте некоторые эффекты наведения на кнопки */
+.form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+}
+/* --------------------------------------------------------------------------------------- */
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+	background-color: rgb(36, 36, 36);
+}
+
+.container {
+	width: 100%;
+	max-width: 1410px; /*70px = 35px + 35px добавленных для адаптации*/
+	padding: 0 35px; /*что бы при адаптации плотно не прилегал контент в блоках*/
+	margin: 0 auto;
+}
+
+.page {
+    overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+/* button */
+
+.btn {
+	display: inline-block;
+	padding: 23px 48px;
+
+	border-radius: 10px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 22px;
+	color: #000000;
+	background: #EAFF00;
+	text-decoration: none;
+
+	transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover {
+	box-shadow: 1px 4px #565d02;
+	background-color: #EAFF00;
+	color: #333;
+	transition: 0.3s linear;
+}
+
+/* --- header --- */
+
+.header {
+	width: 100%;
+
+	padding-top: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	width: 60px;
+	height: 40px;
+	cursor: pointer;
+}
+
+
+.header__phone {
+	margin-left: 20px;
+	color: #fff;
+
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.header__phone:hover {
+	color: #d4be70;
+}
+
+.header.fixed { /*для фиксации хедера */
+	padding: 10px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	transform: translate3d(0, 0, 0); /*что бы менюшка не дёргалась при скроле*/
+	
+	background-color: #808080;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+}
+
+.header.active {
+	background-color: #d0f88a;
+}
+
+/* --- accordion --- */
+.accordion__info {
+	position: relative;
+	display: inline-block;
+}
+
+.accordion__info-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(239, 239, 239, 0.2);
+	z-index: 1000;
+}
+
+.accordion__info-content a {
+	color: #fff;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.accordion__info-content a:hover {
+	background-color: rgb(164, 164, 164)
+}
+
+.show {
+	display:block;
+	margin-top: 10px;
+}
+
+/* section */
+
+.section {
+    padding: 85px 0 105px;
+}
+
+.section__header {
+	margin: 0 auto 100px;
+    width: 100%;
+    max-width: 950px;
+    text-align: center;
+}
+
+.section__btn {
+	text-decoration: none;
+	color: #fff;
+}
+
+.section__btn:hover {
+	color: rgb(195, 195, 195);
+}
+
+.section__glav {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+
+	color: #828282;
+} 
+
+.section__glav a {
+	margin-right: 10px;
+}
+
+.section__glav a:hover {
+	text-decoration: underline;
+}
+
+
+.section__suptitle {
+	margin-top: 8px;
+	position: relative;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 45px;
+
+	color: #fa8108;
+}
+
+.section__title {
+	margin-top: 15px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 22px;
+
+	color: #c0ff03;
+}
+
+.section__title:after {
+	content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background-color: #f38181;
+}
+
+.section__text {
+	font-size: 16px;
+	line-height: 1.5;
+    color: rgb(229, 227, 227);
+}
+
+.section__suptitle:before {
+	position: absolute;
+    top: 50%;
+    left: -87px;
+    content: '';
+    width: 70px;
+    height: 3px;
+    background-color: #eddc44;
+}
+
+.section__suptext {
+	font-size: 15px;
+	color: #eddc44;
+}
+
+.section--map {
+	padding: 0;
+	background: rgb(36, 36, 36);
+}
+
+/* map */
+
+.map {
+	display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.map__img img {
+   	width: 100%;
+   	height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.map__img {
+	width: 100%;
+    height: 100%;
+}
+
+/*nav*/
+
+.nav {
+	font-size: 17px;
+	display: flex;
+	gap: 32px;
+}
+
+.nav__link {
+	display: inline-block;
+	vertical-align: top; /*что бы они шли в строку и можно было задать мэрджин*/
+	position: relative;
+
+	color:#fff;
+	text-decoration: none;
+	cursor: pointer;
+	transition: color .2s linear;
+}
+
+.nav__link:hover {
+	color: #d4be70;
+	border-bottom: none;
+}
+
+/*----- nav toggle ----- */
+
+.nav-toggle {
+	width: 30px;
+	padding: 10px 0;
+	display: none;
+
+	font-size: 0; /*скрываем надпись menu*/
+	color: transparent;
+
+	border: 0;
+	background: none;
+	cursor: pointer;
+
+	position: absolute;
+	right: 24px;
+	z-index: 1;
+}
+
+.nav-toggle:focus {
+	outline: 1;
+}
+
+.nav-toggle__item {
+	display: block;
+	width: 100%;
+	height: 3px;
+
+	background-color: #fff;	
+	
+	position: absolute; /*позиционируем данный элемент по центру*/
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	transition: background .2s linear; /*транзижн для бэкраунда*/
+}
+
+.nav-toggle.active .nav-toggle__item {
+	background: none;
+}
+
+.nav-toggle.active .nav-toggle__item:before {
+	transform-origin: left top;
+	transform: rotate(45deg) translate3d(0, -2px, 0);	
+}
+
+.nav-toggle.active .nav-toggle__item:after {
+	transform-origin: left bottom;
+	transform: rotate(-45deg) translate3d(0, 3px, 0);	
+}
+
+.nav-toggle__item:before,
+.nav-toggle__item:after {
+	content: "";
+	width: 100%;
+	height: 3px;
+
+	background-color: #fff;
+
+	position: absolute;
+	left: 0;
+	z-index: 1;
+
+	transition: transform .2s linear;
+}
+
+.nav-toggle__item:before {
+	top: -8px;
+}
+
+.nav-toggle__item:after {
+	bottom: -8px;
+}
+
+/*btn*/
+
+.button {
+	padding-top: 80px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 23px 48px;
+
+	border-radius: 10px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 22px;
+	color: #000000;
+	background: #EAFF00;
+	text-decoration: none;
+
+	transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover {
+	box-shadow: 1px 4px #565d02;
+	background-color: #EAFF00;
+	color: #333;
+	transition: 0.3s linear;
+}
+
+.btn__logo {
+	margin-left: 65px;
+	vertical-align: middle;
+}
+
+/* section and karti*/
+
+.section {
+    padding: 85px 0 85px;
+}
+
+.karti {
+    width: 100%;
+}
+
+.karti__cont {
+    display: flex;
+    flex-wrap: wrap;
+	margin: 0 -100px;
+}
+
+.karti__item {
+    border-bottom: 3px #a9424223 solid;
+    margin: 30px 8% 60px;
+    padding-bottom: 60px;
+    max-width: 520px;
+    width: 34%;
+}
+
+
+.karti__item a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+	color: #ffffff
+}
+
+.karti__left {
+    margin-right: 5%;
+    width: 60%;
+}
+
+.karti__left h3{
+    font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #ffea00
+}
+
+.karti__left p {
+	font-size: 16px;
+	line-height: 1.5rem;
+}
+
+.karti__right {
+    text-align: center;
+    width: 40%;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.karti__header {
+	margin: 30px auto 100px;
+    width: 100%;
+    max-width: 950px;
+    text-align: center;
+}
+
+.karti__title {
+	font-family: Motserrat, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+	color: #fff;
+}
+
+.karti__glav {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+
+	color: #828282;
+} 
+
+.karti__glav a {
+	margin-right: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.karti__glav a:hover {
+	text-decoration: underline;
+}
+
+.karti__suptitle {
+	margin-top: 8px;
+	position: relative;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 45px;
+
+	color: #fa8108;
+}
+
+.karti__suptitle:before {
+	position: absolute;
+    top: 50%;
+    left: -87px;
+    content: '';
+    width: 70px;
+    height: 3px;
+    background-color: #eddc44;
+}
+
+.section--kont {
+	padding: 200px 0 0 0;
+}
+/* popup */
+
+.modal__window {
+	cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: -10000px;
+    width: 100%;
+    z-index: 9999;
+    height: 100%;
+    display: block;
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+    padding: 30px 30px;
+    overflow-y: auto;
+    transition: opacity 0.4s ease;
+}
+
+.modal__window.active {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    pointer-events: auto;
+}
+
+.modal__window__inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.modal--card {
+    padding: 0;
+}
+
+.modal--card a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.modal {
+    position: relative;
+    width: 100%;
+    max-width: 930px;
+    margin: auto;
+    z-index: 1;
+	background: #ffffff;
+}
+
+.modal__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 21px;
+    height: 21px;
+    display: block;
+    cursor: pointer;
+    background: url(../image/karti/close.png) 0 0/contain no-repeat;
+    z-index: 10;
+}
+
+.modal--card .modal__body {
+    background: #858585;
+    padding: 80px 60px 70px;
+}
+
+.modal__title {
+    margin: 0 0 6rem;
+}
+
+.modal__title h2 {
+	font-size: 30px;
+	color: rgb(139 2 2);;
+}
+
+.modal__title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.modal__sum {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.modal__text {
+    margin: 0 auto;
+    max-width: 600px;
+	font-size: 17px;
+}
+
+.modal__text h3 {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #fff707;
+}
+
+.modal__text ul {
+    list-style: initial;
+    list-style-position: inside;
+}
+
+.modal__bottom {
+    padding: 80px 60px 70px;
+}
+
+.modal-form__title {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.modal-form__text {
+    max-width: 850px;
+    margin: 0 auto 5rem;
+    text-align: center;
+}
+
+.modal-form__form {
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+.modal__input {
+    margin-bottom: 4rem;
+}
+
+.modal__inputbox--border{
+    border: 0;
+    border-bottom: 1px #ebebeb solid;
+    background: transparent;
+    padding: 10px;
+    font: 300 16px "Neo Sans Pro 2", Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.modal-form__polic {
+    margin: 4rem 0 7rem;
+    font: 300 14px/18px "Neo Sans Pro 2", Arial, sans-serif;
+}
+
+.modal-form__btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.modal__button {
+    text-decoration: none;
+    background: transparent;
+    border: 0;
+    color: inherit;
+}
+
+.text-more__text {
+    font: italic 24px "Neo Sans Pro 2", Arial, sans-serif;
+    text-align: center;
+}
+
+.text-more--xl .text-more__arrow-long {
+    fill: #ff1a36;
+}
+
+.arrow-long__curve {
+    transition: 0.4s ease;
+    fill: #ff1a36;
+}
+
+.arrow-long__line {
+    width: 28px;
+    height: 1px;
+    transition: 0.4s ease;
+    -ms-transform-origin: 28px 5px;
+    transform-origin: 28px 5px;
+    fill: #ff1a36;
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+/*footer*/
+
+.footer {
+	position: relative;
+	padding: 85px 0;
+}
+
+.footer__logo {
+	width: 140px;
+	height: 100px;
+}
+
+.footer__inner {
+	display: flex;
+	padding: 90px 0 10px 0;
+}
+
+.footer__left {
+	flex: 0 0 auto;
+    width: 25%;
+}
+
+.footer__right {
+	flex: 0 0 auto;
+    width: 75%;
+}
+
+.footer__header {
+    padding-bottom: 69px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__leftcol {
+	width: 22%;
+	z-index: 1000;
+}
+
+.footer__supcol {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	text-decoration: none;
+
+	color: #333333;
+}
+
+
+.footer__col {
+	margin-top: 15px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 36px;
+}
+
+.footer__col a {
+	text-decoration: none;
+	border-bottom: 1px solid;
+
+	color: #ffe481;
+}
+
+.footer__supcol a{
+	text-decoration: none;
+	border-bottom: 1px solid;
+
+	color: #da5c3e;
+}
+
+.footer__col a:hover {
+	border-bottom: none;
+}
+
+.footer__supcol a:hover{
+	border-bottom: none;
+}
+
+.footer__footcol a:hover {
+	border-bottom: none;
+}
+
+.footer__footcol {
+	margin-top: 43px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.footer__footcol a {
+	text-decoration: none;
+	border-bottom: 1px solid;
+
+	color: #da5c3e;
+}
+
+.footer__centercol {
+	width: 22%;
+	z-index: 1000;
+}
+
+.footer__rightcol {
+	width: 25%;
+	z-index: 1000;
+}
+
+.footer__num {
+	margin-top: 31px;
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.footer__tel {
+	text-decoration: none;
+
+	color: #ffffff;
+}
+
+.footer__zakaz p {
+	margin-top: 6px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+
+	color: #c52929;
+}
+
+.footer__what {
+	margin-top: 45px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.footer__what a{
+	text-decoration: none;
+	border-bottom: 1px solid;
+	color: #da5c3e;
+}
+
+.footer__mail {
+	margin-top: 8px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 36px;
+}
+
+.footer__mail a{
+	text-decoration: none;
+	border-bottom: 1px solid;
+	color: #ffffff;
+}
+
+.footer__section {
+	display: flex;
+	gap: 42px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.footer__section div {
+	z-index: 1000;
+}
+
+.footer__vk {
+	display: flex;
+	gap: 19px;
+    align-items: center;
+    font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.footer__vk a {
+	text-decoration: none;
+	border-bottom: 1px solid;
+	color: #ffffff;
+}
+
+.footer__insta {
+	display: flex;
+	gap: 19px;
+    align-items: center;
+}
+
+.footer__insta a {
+	text-decoration: none;
+	border-bottom: 1px solid;
+	color: #ffffff;
+}
+
+.footer__vk:before {
+	content: url(../image/footer/vk.png);
+}
+
+.footer__insta:before {
+	content: url(../image/footer/inst.png);
+}
+
+.footer__footer {
+	margin-top: 70px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+
+	color: #ffffff;
+}
+
+.footer__footer a {
+	color: #ffffff;
+}
+
+@media (max-width: 1360px) /*мониторы. Экраны ноутбуков*/{
+
+	/*intro*/
+
+	.section--kont {
+		width: 100%;
+		max-width: 1360px;
+	}
+	
+	.nav__link {
+		margin: 0 35px;
+	}
+
+	.nav {
+		font-weight: 500;
+	}
+
+	.nav__link {
+		margin: 0 35px;
+	}
+
+}
+
+@media (max-width: 1250px) {
+
+	/*intro*/
+
+	.header__phone {
+		display: none;
+	}
+
+	/* nav */
+
+	.nav {
+		font-size: 16px;
+	}
+
+	.nav__link {
+		margin: 0 35px;
+	}
+	
+	/*btn*/
+
+	.button {
+		padding-top: 100px;
+	}
+
+	.btn {
+		padding: 30px 60px;
+    	font-size: 18px;
+	}
+	
+	.btn__logo {
+		margin-left: 30px;
+	}
+
+	.btn__proiz {
+		font-size: 14px;
+	}
+
+	/* section */
+
+	.section__text {
+		font-size: 18px;
+	}
+
+	/* footer */
+
+	.footer__supcol {
+		font-size: 16px;
+	}
+
+	.footer__col {
+		font-size: 14px;
+	}
+
+}
+
+@media (max-width: 990px) /*планшет. лендскейп*/{
+	/*intro*/
+
+	.intro {
+		width: 100%;
+		max-width: 990px;
+	}
+
+	/*=nav=*/
+	.nav {
+		display: none;
+		width: 100%;
+
+		position: absolute;
+		top: 100%;
+		left: 0;
+
+		background-color: #808080;
+	}
+
+	.nav.active {
+		display: block;
+	}
+
+	.nav__link {
+		display: block;
+		margin: 0;
+		padding: 8px 20px;
+	}
+
+	.nav-toggle {
+		display: block;
+	}
+
+	.button {
+		text-align: center;
+		padding-top: 150px;
+	}
+
+	.btn__logo{
+		display: none;
+	}
+
+
+	/*section*/
+
+	.section {
+		padding: 50px 0 50px;
+	}
+
+	.section__suptitle {
+		font-size: 30px;
+	}
+
+	/* karti */
+
+	.karti__cont {
+		margin: 0;
+		justify-content: center;
+	}
+
+	.karti__item {
+		width: 100%;
+		margin: 20px 0 0 0;
+	}
+
+	/* map */
+
+	.map__img {
+		width: 100%;
+	}
+
+	/* footer */
+
+	.footer {
+		padding: 0;
+	}
+
+	.footer__left {
+		display: none;
+	}
+	
+	.footer__right {
+		width: 100%;
+	}
+
+	.footer__rightcol {
+		flex: 0 0 40%;
+	}
+
+	/* footer */
+
+	.footer {
+		padding: 0;
+	}
+
+	.footer__left {
+		display: none;
+	}
+	
+	.footer__right {
+		width: 100%;
+	}
+
+	.footer__rightcol {
+		flex: 0 0 40%;
+	}
+}
+
+@media (max-width: 770px) /*планшет. портретная ориентация*/{
+
+	/* footer */
+
+	.footer__rightcol {
+		flex: 0 0 40%;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.intro {
+		width: 100%;
+		max-width: 770px;
+		min-height: 1000px;
+	}
+
+    .vak__title {
+        font-size: 25px;
+    }
+
+    .vak__text {
+		font-size: 14px;
+	}
+
+	/* footer */
+
+	.footer__rightcol {
+		flex: 0 0 40%;
+	}
+
+	/*info*/
+
+	h2 {
+		font-size: 30px;
+	}
+
+	/*footer*/
+
+	.footer__inner {
+		display: block;
+	}
+
+	.footer__left {
+		width: 100%;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.footer__right {
+		width: 100%;
+	}
+
+	.footer__supcol {
+		font-size: 14px;
+	}
+
+	.footer__col {
+		font-size: 12px;
+	}
+
+	.footer__num {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 575px) /*моб.телефоны*/ {
+
+	/*intro*/
+
+	.intro {
+		width: 100%;
+		max-width: 575px;
+	}
+
+	/* modal */
+
+	.modal-form__title {
+		margin-bottom: 30px;
+	}
+
+	.modal-form__text {
+		margin-bottom: 30px;
+	}
+
+	.modal-form__polic {
+		margin: 20px 0 30px;
+		width: 100%;
+	}
+
+	/*section*/
+	.map {
+		height: 300px;
+	}
+
+	.section--map {
+		padding: 0 0 50px;
+	}
+
+	.section__suptitle {
+		font-size: 18px;
+	}
+
+	.section__title {
+		font-size: 30px;
+	}
+
+	.section__text {
+		font-size: 14px;
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+
+	.button {
+		padding-top: 100px;
+	}
+	/* footer */
+
+	/* footer */
+
+	.footer__inner {
+		padding: 0 0 10px 0;
+	}
+
+	.footer__leftcol {
+		display: none;
+	}
+
+	.footer__centercol {
+		width: 50%;
+	}
+	
+	.footer__rightcol {
+		width: 50%;
+	}
+	
+	.footer__header {
+		padding-bottom: 0;
+	}
+
+	.footer__footcol {
+		margin-top: 0;
+	}
+
+}

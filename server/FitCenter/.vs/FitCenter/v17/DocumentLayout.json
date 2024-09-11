@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\models\\abonement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\models\\abonement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\models\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\models\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\views\\home\\karti.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\views\\home\\karti.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\views\\home\\coach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\views\\home\\coach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|c:\\users\\timag\\desktop\\sait\\kursovaya\\server\\fitcenter\\fitcenter\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831E8EC9-5C64-4C17-A40E-226BCAFE8ACE}|FitCenter\\FitCenter.csproj|solutionrelative:fitcenter\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FitCenter\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FitCenter\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:02:29.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Abonement.cs",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Models\\Abonement.cs",
+              "RelativeDocumentMoniker": "FitCenter\\Models\\Abonement.cs",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Models\\Abonement.cs",
+              "RelativeToolTip": "FitCenter\\Models\\Abonement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:02:24.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "FitCenter\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Models\\Client.cs",
+              "RelativeToolTip": "FitCenter\\Models\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:02:23.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailDto.cs",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Models\\EmailDto.cs",
+              "RelativeDocumentMoniker": "FitCenter\\Models\\EmailDto.cs",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Models\\EmailDto.cs",
+              "RelativeToolTip": "FitCenter\\Models\\EmailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:02:21.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "FitCenter\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "FitCenter\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:02:19.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Program.cs",
+              "RelativeDocumentMoniker": "FitCenter\\Program.cs",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Program.cs",
+              "RelativeToolTip": "FitCenter\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:28:57.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "FitCenter\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "FitCenter\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T07:28:55.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FitCenter\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FitCenter\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T07:28:52.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Coach.cshtml",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Views\\Home\\Coach.cshtml",
+              "RelativeDocumentMoniker": "FitCenter\\Views\\Home\\Coach.cshtml",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Views\\Home\\Coach.cshtml",
+              "RelativeToolTip": "FitCenter\\Views\\Home\\Coach.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-06-09T10:13:31.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FitCenter\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FitCenter\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-06-09T10:11:51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Karti.cshtml",
+              "DocumentMoniker": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Views\\Home\\Karti.cshtml",
+              "RelativeDocumentMoniker": "FitCenter\\Views\\Home\\Karti.cshtml",
+              "ToolTip": "C:\\Users\\timag\\Desktop\\SAIT\\kursovaya\\server\\FitCenter\\FitCenter\\Views\\Home\\Karti.cshtml",
+              "RelativeToolTip": "FitCenter\\Views\\Home\\Karti.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-06-09T09:10:33.625Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

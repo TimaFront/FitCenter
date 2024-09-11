@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Криосауна FITCENTER</title>
+	<link rel="FitCenter" href="../image/header/logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="krio.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700;900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f29f08a95.js" crossorigin="anonymous"></script>
+	<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+</head>
+
+    <button class="open-button" onclick="openForm()">Сообщить о проблемах в работе сайта</button>
+
+	<div class="chat-popup" id="myForm">
+
+		<form action="/" method="post" class="form-container">
+			<label for="msg"><b>Информация</b></label>
+			<textarea id="id_textarea" placeholder="Не работает..." name="msg" required></textarea>
+			<button type="submit" class="btn">Отправить</button>
+			<button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+		</form>
+
+	</div>
+
+    <header class = "header" id="header">
+
+        <div class = "container">
+
+            <div class = "header__inner">
+
+                <div class = "header__logotype">
+					<a href="../index.html"> <img class = "header__logo" src="../image/header/logo.png" alt="FitCenter"> </a>
+                </div> <!-- header__logotype -->
+
+                <nav class="nav" id="nav">
+                    <div><a href="../index.html#card" class="nav__link"> Тренеры </a></div>
+                    <div><a href="#" class="nav__link"> Криосауна </a></div>
+                    <div><a href="bas.html" class="nav__link"> Бассейн </a></div>
+					<div><a href="karti.html" class="nav__link"> Абонементы </a></div>
+					<div class="accordion">
+						<a class="nav__link" onclick="show_list()">Информация<i class="fa fa-caret-down"></i></a>
+						<div id="accordionId" class="accordion__info-content">
+							<a href="vakansii.html">Вакансии</a>
+							<a href="kont.html">Контакты</a>
+						</div>
+					</div>
+                    <div>
+						<a href="tel:+79298669600" class="header__phone"><i class="fa-solid fa-phone-flip"></i>+7 (928) 866-96-00</a>
+					</div>
+                </nav>
+
+                <button class="nav-toggle" id="nav__toggle" type="button">
+					<span class="nav-toggle__item">Menu</span>
+				</button>
+
+            </div> <!-- header__inner -->
+
+        </div> <!-- container -->
+
+    </header> <!--header -->
+
+    <div class="page">
+
+        <section class="section section--kont">
+			
+			<div class="container">
+
+				<div class="krios__inner">
+                    <div class="krios__prod">
+                        <div class="krios__glav"> 
+                            <a href="../index.html" class="section__btn"> Главная /</a>
+                            <a href="#" class="section__btn"> Криосауна /</a>
+                        </div> 
+                        <h3 class="krios__suptitle">Криосауна</h3>
+                    </div> <!-- section__prod -->
+
+                    <div class="krios__header">
+                        <h1 class="krios__title">Криосауна</h1>
+                    </div> <!-- section__header -->
+
+					<div class="section__header">
+                        <p class="section__text">Мы любим фитнес и знаем о нем всё. Мы постоянно ищем новые идеи, разработки, технологии: мы создаём FITCENTER-уникальный клуб, где лучшие традиции фитнеса дополнены новейшими достижениями науки. Мы делаем это, чтобы вы могли достичь лучших результатов и изменили свою жизнь.</p>
+                    </div> <!-- section__header -->
+                
+                </div> <!-- krios__inner -->
+            </div> <!-- container -->
+
+        </section>
+
+        <section class="section section--krio">
+
+			<div class="krio">
+
+				<div class="krio__img">
+					<img src="../image/krio/krio2.jpg" alt="">
+				</div>
+
+				<div class="krio__text">
+
+					<div class="krio__suptitle">
+						Что такое <b>криосауна?</b>
+					</div>
+
+					<div class="krio__title">
+						<b>Криосауна</b> - это новая эффективная методика оздоровления, которая осуществляется посредством кратковременного экстремального комфортного охлаждения всей поверхности тела без его переохлаждения (ниже уровня шеи) направленными потоками сухой воздушно-азотной смеси с температурой от -130°С до -170°С.
+						Простыми словами, человек ненадолго попадает в среду, где дико холодно. Находясь на таком морозе около 2-3 минут организм не успевает замерзнуть, но организм понимает - что-то не так, посылает мощный импульс в мозг и активизирует все защитные процессы.
+						Разработкой и производством криосауны занимаются российские ученые из Санкт-Петербургского Государственного Университета Низкотемпературных и ПищевыхТехнологий! Основного института по криотерапии в России!
+						<br>
+						<br>
+						Косметологи уверены, что криосауна – это самая быстрая и действенная косметическая процедура. Она делает кожу гладкой, подтянутой и эластичной. Омолаживающий эффект становится заметен уже после нескольких сеансов. С помощью криокамеры можно получить поразительные результаты:
+						<ul>
+							<li>улучшить внешний вид и состояние кожи</li>
+							<li>похудеть и улучшить обмен веществ</li>
+							<li>снять боль в мышцах после массажа или спортивных тренировок</li>
+						</ul>	
+					</div>
+
+					
+					
+					<div class="buttons">
+						<a class="btn" href="tel:+79298669600"><i class="fa-solid fa-phone-flip"></i>ЗАПИСАТЬСЯ!</a>
+					</div>
+
+				</div>	<!-- krio_text -->
+			</div>  <!-- krio -->
+
+		</section>	<!-- section section--map -->
+        
+        <section class="section section--map" id="map">
+
+			<div class="map">
+
+				<div class="map__img">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1459.4869808082685!2d47.504465673175076!3d42.97882213895426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404ea05e9b6ea35d%3A0x783379e1e8a2426b!2z0YPQuy4g0JTQsNGF0LDQtNCw0LXQstCwLCAzMSwg0JzQsNGF0LDRh9C60LDQu9CwLCDQoNC10YHQvy4g0JTQsNCz0LXRgdGC0LDQvSwgMzY3MDAz!5e0!3m2!1sru!2sru!4v1667509161756!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div> 
+
+			</div> <!-- map -->
+
+		</section> <!-- section -->
+
+		<footer class="footer">
+
+			<div class="container">
+
+				<div class="footer__inner">
+					
+					<div class="footer__left">
+						<div class="footer__logotype">
+							<img class="footer__logo" src="../image/header/logo.png" alt="ЛОГО">
+						</div>
+					</div>
+
+					<div class="footer__right">
+						<div class="footer__header">
+
+							<div class="footer__leftcol">
+								<div class="footer__height">
+									<div class="footer__supcol" data-scroll="#card"> 
+										<a href="#">Тренера</a> 
+									</div>
+									<div class="footer__col">
+										<div><a href="#" data-scroll="#">Фитнес-Тренер</a></div>
+										<div><a href="#" data-scroll="#">Тренер по кроссфиту</a></div>
+										<div><a href="#" data-scroll="#">Тренер по БЕ</a></div>
+									</div>
+								</div>
+
+								<div class="footer__height">
+									<div class="footer__footcol">
+										<a href="#">Залы</a>
+									</div>
+									<div class="footer__col">
+										<div><a href="index.html">Фитнес-Зал</a></div>
+										<div><a href="bas.html">Бассейн</a></div>
+										<div><a href="krio.html">Криосауна</a></div>
+									</div>
+								</div>
+							</div> <!-- footer_bojki -->
+
+							<div class="footer__centercol">
+								<div class="footer__height">	
+
+									<div class="footer__supcol"> 
+										<a href="#" data-scroll="#info">Информация</a> 
+									</div>
+
+									<div class="footer__col">
+										<div><a href="vakansii.html">Вакансии</a></div>
+										<div><a href="kont.html">Контакты</a></div>
+									</div>	
+
+								</div>
+								<div class="footer__height">
+
+									<div class="footer__footcol"> 
+										<a href="#" data-scroll="#map">Наш адрес</a> 
+									</div>
+									<div class="footer__col"> 
+										<a href="https://goo.gl/maps/b6JYfiHjMFQEgzds5" target="_blank">ул. Дахадаева, 31, д.1</a> 
+									</div>
+
+								</div>
+							</div> <!-- footer_info -->
+
+							<div class="footer__rightcol">
+								<div>
+
+									<div class="footer__supcol"> 
+										<a href="#">Запись</a> 
+									</div>
+
+									<div class="footer__num">
+										<a class="footer__tel" href="tel:+70298669600">+7 (929) 866-96-00</a>
+									</div>
+
+									<p>с 09:00 до 24:00 без выходных</p>
+
+									<div class="footer__what">
+										<a href="https://wa.me/79298669600?text=Здравствуйте%2C+у+меня+есть+вопрос">Написать в Whatsapp</a>
+									</div>
+
+									<div class="footer__mail">	
+										<a href="mailto:timagadjiev5@gmail.com">FINCENTER@mail.ru</a>
+									</div>
+
+								</div>
+							</div> <!-- footer__zakaz -->
+						</div> <!-- footer__header -->
+						
+						<div class="footer__section">
+							<div>Подписывайтесь на нас:</div>
+
+							<div class="footer__vk">
+								<a href="#">Вконтакте</a>
+							</div>
+
+							<div class="footer__insta">
+								<a href="#">Instagram</a>
+							</div>	
+						</div> <!-- footer__section -->
+
+						<div class="footer__footer">
+							
+							<div>
+
+								2022 © «FITCENTER» Воспроизведение или распространение материалов с сайта в любой форме может производиться только с письменного разрешения правообладателя. При использовании материалов — ссылка на правообладателя и источник заимствования обязательна.
+
+							</div>
+
+							<div>
+								
+								Сайт не является публичной офертой и носит информационный характер.
+
+							</div>
+
+							<a href="№">Политика конфиденциальности</a>
+
+						</div> <!-- footer__footer -->
+
+					</div> <!-- footer__right -->
+
+				</div> <!-- footer__inner -->
+
+			</div> <!-- container -->
+
+		</footer>
+		
+    </div>
+    <script src="../js/app.js"></script>
+</body>
+</html>

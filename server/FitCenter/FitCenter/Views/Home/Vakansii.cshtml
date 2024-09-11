@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вакансии FITCENTER</title>
+	<link rel="FitCenter" href="../image/header/logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="~/css/vakansii.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700;900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1f29f08a95.js" crossorigin="anonymous"></script>
+	<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+</head>
+<body>
+
+	<button class="open-button" onclick="openForm()">Сообщить о проблемах в работе сайта</button>
+
+	<div class="chat-popup" id="myForm">
+
+		<form action="" method="POST" class="form-container" id="form">
+			<label for="msg"><b>Информация</b></label>
+			<textarea type="text" id="id_textarea" value="Не работает" name="name" required>Не работает</textarea>
+			<button type="submit" class="btn">Отправить</button>
+			<button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+		</form>
+
+	</div>
+
+	<header class="header" id="header">
+
+		<div class="container">
+
+			<div class="header__inner">
+
+				<div class="header__logotype">
+					<a href="~/Home/Index"> <img class="header__logo" src="../image/header/logo.png" alt="FitCenter"> </a>
+				</div> <!-- header__logo -->
+
+				<nav class="nav" id="nav">
+					<div><a href="~/Home/Index#card" class="nav__link"> Тренеры </a></div>
+					<div><a href="~/Home/Krio" class="nav__link"> Криосауна </a></div>
+					<div><a href="~/Home/Bas" class="nav__link"> Бассейн </a></div>
+					<div><a href="~/Home/Karti" class="nav__link"> Абонементы </a></div>
+					<div class="accordion">
+						<a class="nav__link" onclick="show_list()">Информация<i class="fa fa-caret-down"></i></a>
+						<div id="accordionId" class="accordion__info-content">
+							<a href="~/Home/Vakansii">Вакансии</a>
+							<a href="~/Home/Kont">Контакты</a>
+						</div>
+					</div>
+					<div>
+						<a href="tel:+79298669600" class="header__phone"><i class="fa-solid fa-phone-flip"></i>+7 (928) 866-96-00</a>
+					</div>
+				</nav>
+
+				<button class="nav-toggle" id="nav__toggle" type="button">
+					<span class="nav-toggle__item">Menu</span>
+				</button>
+
+			</div> <!-- header__inner -->
+
+		</div> <!-- container -->
+
+	</header> <!--header -->
+
+	<div class="page">
+
+		<section class="section section--kont">
+
+			<div class="container">
+
+				<div class="vak__inner">
+					<div class="vak__prod">
+						<div class="vak__glav">
+							<a href="~/Home/Index " class="section__btn"> Главная /</a>
+							<a href="#" class="section__btn"> Информация /</a>
+							<a href="#" class="section__btn"> Вакансии /</a>
+						</div>
+						<h3 class="vak__suptitle">Вакансии</h3>
+					</div> <!-- section__prod -->
+
+					<div class="vak__header">
+						<h1 class="vak__title">Вакансии</h1>
+					</div> <!-- section__header -->
+
+					<div class="vak__flex">
+						<div class="vak__flexhead">Махачкала, ул. Дахадаева 31, д.1</div>
+						<div class="vak__flexfooter">
+							<div class="vak__item">
+								<div class="vak__info">
+									<div class="vak__num">
+										Обязанности:
+									</div>
+									<div class="vak__text">
+										<ul>
+											<li>Разработка программы тренировок.</li>
+											<li>Инструктаж по выполнению упражнений.</li>
+											<li>Демонстрация упражнений.</li>
+											<li>Обеспечение безопасности клиентов во время тренировки.</li>
+											<li>Контроль качества выполняемых упражнений.</li>
+											<li>Формирование у клиентов теоретических знаний, которые пригодятся на тренировках.</li>
+											<li>Мотивация клиентов и поддержание их позитивного настроя.</li>
+											<li>Контроль динамики результатов.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="vak__item">
+								<div class="vak__info">
+									<div class="vak__num">
+										Условия:
+									</div>
+									<div class="vak__text">
+										Ежемесячная оплата + личный заработок от индивидуальных занятий.
+									</div>
+								</div>
+							</div>
+							<div class="vak__item">
+								<div class="vak__info">
+									<div class="vak__num">
+										Требования:
+									</div>
+									<div class="vak__text">
+										Должны иметь серьезную теоретическую подготовку, изучить основы физиологии, функциональной анатомии, основы биомеханики силовых упражнений, теорию и методику фитнес-тренировок, основы периодизации, знаниями психологии. Вы должны знать и уметь составлять индивидуальную программу тренировок, учитывая особенности здоровья клиента, оказывать первую доврачебную помощь.
+									</div>
+								</div>
+							</div>	<!-- vak__item -->
+						</div> <!-- vak__flexfooter -->
+
+
+					</div> <!-- vak__flex -->
+				</div> <!-- vak__inner -->
+
+			</div> <!-- container -->
+
+		</section>
+
+		<section class="mail__support">
+
+			<div class="container">
+
+				<div class="mail__support-inner">
+					<a href="mailto:g.timirkhan@mail.ru" target="_blank" class="mail__support-item">
+						<div class="mail__support-content">
+							<h2 class="mail__support-title">Ваша вакансия</h2>
+							<p class="mail__support-text">FITCENTER@mail.ru</p>
+						</div>
+						<div class="mail__support-box">
+							<svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12.3846 7.875V0H6.19231C5.48846 0 4.81345 0.276562 4.31575 0.768845C3.81806 1.26113 3.53846 1.92881 3.53846 2.625V21.875C3.53846 22.5712 3.81806 23.2389 4.31575 23.7312C4.81345 24.2234 5.48846 24.5 6.19231 24.5H20.3462C21.05 24.5 21.725 24.2234 22.2227 23.7312C22.7204 23.2389 23 22.5712 23 21.875V10.5H15.0385C14.3346 10.5 13.6596 10.2234 13.1619 9.73116C12.6642 9.23887 12.3846 8.57119 12.3846 7.875ZM14.1538 7.875V0.4375L22.5577 8.75H15.0385C14.8038 8.75 14.5788 8.65781 14.4129 8.49372C14.247 8.32962 14.1538 8.10706 14.1538 7.875ZM0 5.25C0 4.78587 0.186401 4.34075 0.518196 4.01256C0.849991 3.68437 1.3 3.5 1.76923 3.5V21.875C1.76923 23.0353 2.23523 24.1481 3.06472 24.9686C3.89421 25.7891 5.01923 26.25 6.19231 26.25H19.4615C19.4615 26.7141 19.2751 27.1593 18.9433 27.4874C18.6115 27.8156 18.1615 28 17.6923 28H6.27723C4.61241 28 3.01577 27.3458 1.83856 26.1814C0.661349 25.017 0 23.4377 0 21.791V5.25Z" fill="#ffd903d6"></path>
+							</svg>
+						</div>
+					</a>
+					<a href="mailto:timagadjiev5@gmail.com" target="_blank" class="mail__support-item">
+						<div class="mail__support-content">
+							<h2 class="mail__support-title">Ваша вакансия</h2>
+							<p class="mail__support-text">FITCENTER@gmail.com</p>
+						</div>
+						<div class="mail__support-box">
+							<svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12.3846 7.875V0H6.19231C5.48846 0 4.81345 0.276562 4.31575 0.768845C3.81806 1.26113 3.53846 1.92881 3.53846 2.625V21.875C3.53846 22.5712 3.81806 23.2389 4.31575 23.7312C4.81345 24.2234 5.48846 24.5 6.19231 24.5H20.3462C21.05 24.5 21.725 24.2234 22.2227 23.7312C22.7204 23.2389 23 22.5712 23 21.875V10.5H15.0385C14.3346 10.5 13.6596 10.2234 13.1619 9.73116C12.6642 9.23887 12.3846 8.57119 12.3846 7.875ZM14.1538 7.875V0.4375L22.5577 8.75H15.0385C14.8038 8.75 14.5788 8.65781 14.4129 8.49372C14.247 8.32962 14.1538 8.10706 14.1538 7.875ZM0 5.25C0 4.78587 0.186401 4.34075 0.518196 4.01256C0.849991 3.68437 1.3 3.5 1.76923 3.5V21.875C1.76923 23.0353 2.23523 24.1481 3.06472 24.9686C3.89421 25.7891 5.01923 26.25 6.19231 26.25H19.4615C19.4615 26.7141 19.2751 27.1593 18.9433 27.4874C18.6115 27.8156 18.1615 28 17.6923 28H6.27723C4.61241 28 3.01577 27.3458 1.83856 26.1814C0.661349 25.017 0 23.4377 0 21.791V5.25Z" fill="#ffd903d6"></path>
+							</svg>
+						</div>
+					</a>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="section section--map" id="map">
+
+			<div class="map">
+
+				<div class="map__img">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1459.4869808082685!2d47.504465673175076!3d42.97882213895426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404ea05e9b6ea35d%3A0x783379e1e8a2426b!2z0YPQuy4g0JTQsNGF0LDQtNCw0LXQstCwLCAzMSwg0JzQsNGF0LDRh9C60LDQu9CwLCDQoNC10YHQvy4g0JTQsNCz0LXRgdGC0LDQvSwgMzY3MDAz!5e0!3m2!1sru!2sru!4v1667509161756!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+
+			</div>  <!-- map -->
+
+		</section>	<!-- section section--map -->
+
+		<footer class="footer">
+
+			<div class="container">
+
+				<div class="footer__inner">
+
+					<div class="footer__left">
+						<div class="footer__logotype">
+							<img class="footer__logo" src="../image/header/logo.png" alt="ЛОГО">
+						</div>
+					</div>
+
+					<div class="footer__right">
+						<div class="footer__header">
+
+							<div class="footer__leftcol">
+								<div class="footer__height">
+									<div class="footer__supcol" data-scroll="#card">
+										<a href="#">Тренера</a>
+									</div>
+									<div class="footer__col">
+										<div><a href="#" data-scroll="#">Фитнес-Тренер</a></div>
+										<div><a href="#" data-scroll="#">Тренер по кроссфиту</a></div>
+										<div><a href="#" data-scroll="#">Тренер по БЕ</a></div>
+									</div>
+								</div>
+
+								<div class="footer__height">
+									<div class="footer__footcol">
+										<a href="#">Залы</a>
+									</div>
+									<div class="footer__col">
+										<div><a href="~/Home/Index">Фитнес-Зал</a></div>
+										<div><a href="~/Home/Bas">Бассейн</a></div>
+										<div><a href="~/Home/Krio">Криосауна</a></div>
+									</div>
+								</div>
+							</div> <!-- footer_bojki -->
+
+							<div class="footer__centercol">
+								<div class="footer__height">
+
+									<div class="footer__supcol">
+										<a href="#" data-scroll="#info">Информация</a>
+									</div>
+
+									<div class="footer__col">
+										<div><a href="~/Home/Vakansii">Вакансии</a></div>
+										<div><a href="~/Home/Kont">Контакты</a></div>
+									</div>
+
+								</div>
+								<div class="footer__height">
+
+									<div class="footer__footcol">
+										<a href="#" data-scroll="#map">Наш адрес</a>
+									</div>
+									<div class="footer__col">
+										<a href="https://goo.gl/maps/b6JYfiHjMFQEgzds5" target="_blank">ул. Дахадаева, 31, д.1</a>
+									</div>
+
+								</div>
+							</div> <!-- footer_info -->
+
+							<div class="footer__rightcol">
+								<div>
+
+									<div class="footer__supcol">
+										<a href="#">Запись</a>
+									</div>
+
+									<div class="footer__num">
+										<a class="footer__tel" href="tel:+70298669600">+7 (929) 866-96-00</a>
+									</div>
+
+									<p>с 09:00 до 24:00 без выходных</p>
+
+									<div class="footer__what">
+										<a href="https://wa.me/79298669600?text=Здравствуйте%2C+у+меня+есть+вопрос">Написать в Whatsapp</a>
+									</div>
+
+									<div class="footer__mail">
+										<a href="mailto:timagadjiev5@gmail.com">FINCENTER@mail.ru</a>
+									</div>
+
+								</div>
+							</div> <!-- footer__zakaz -->
+						</div> <!-- footer__header -->
+
+						<div class="footer__section">
+							<div>Подписывайтесь на нас:</div>
+
+							<div class="footer__vk">
+								<a href="#">Вконтакте</a>
+							</div>
+
+							<div class="footer__insta">
+								<a href="#">Instagram</a>
+							</div>
+						</div> <!-- footer__section -->
+
+						<div class="footer__footer">
+
+							<div>
+
+								2022 © «FITCENTER» Воспроизведение или распространение материалов с сайта в любой форме может производиться только с письменного разрешения правообладателя. При использовании материалов — ссылка на правообладателя и источник заимствования обязательна.
+
+							</div>
+
+							<div>
+
+								Сайт не является публичной офертой и носит информационный характер.
+
+							</div>
+
+							<a href="№">Политика конфиденциальности</a>
+
+						</div> <!-- footer__footer -->
+
+					</div> <!-- footer__right -->
+
+				</div> <!-- footer__inner -->
+
+			</div> <!-- container -->
+
+		</footer>
+
+	</div> <!-- page -->
+	<script src="~/js/app.js"></script>
+</body>
+</html>
+

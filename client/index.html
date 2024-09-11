@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Фитцентр">
+	<meta name="description" content="Фитнес центр в Махачкале">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FitCenter</title>
+	<link rel="FitCenter" href="image/header/logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700;900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f29f08a95.js" crossorigin="anonymous"></script>
+	<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+</head>
+<body>
+	<button class="open-button" onclick="openForm()">Сообщить о проблемах в работе сайта</button>
+
+	<div class="chat-popup" id="myForm">
+		<form action="" method="POST" class="form-container" id="form">
+
+			<label for="msg"><b>Информация</b></label>
+			<textarea type="text" id="id_textarea" value="Не работает" name="name" required>Не работает</textarea>
+
+			<button type="submit" class="btn">Отправить</button>
+			<button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+		</form>
+	</div>
+
+    <header class = "header" id="header">
+
+        <div class = "container">
+
+            <div class = "header__inner">
+
+                <div class = "header__logotype" data-scroll="#intro">
+					<img class = "header__logo" src="image/header/logo.png" alt="FitCenter">
+                </div> <!-- header__logotype -->
+
+                <nav class="nav" id="nav">
+                    <div><a href="#" class="nav__link" data-scroll="#card"> Тренеры </a></div>
+                    <div><a href="str/krio.html" class="nav__link"> Криосауна </a></div>
+                    <div><a href="str/bas.html" class="nav__link"> Бассейн </a></div>
+					<div><a href="str/karti.html" class="nav__link"> Абонементы </a></div>
+					<div class="accordion">
+						<a href="#" class="nav__link" onclick="show_list()">Информация<i class="fa fa-caret-down"></i></a>
+						<div id="accordionId" class="accordion__info-content">
+							<a href="str/vakansii.html">Вакансии</a>
+							<a href="str/kont.html">Контакты</a>
+						</div>
+					</div>
+                    <div>
+						<a href="tel:+79298669600" class="header__phone"><i class="fa-solid fa-phone-flip"></i>+7 (929) 866-96-00</a>
+					</div>
+                </nav>
+
+                <button class="nav-toggle" id="nav__toggle" type="button">
+					<span class="nav-toggle__item">Menu</span>
+				</button>
+
+            </div> <!-- header__inner -->
+
+        </div> <!-- container -->
+
+    </header> <!--header -->
+    
+    <div class="page">
+
+        <div class="intro" id="intro">
+
+            <div class="container">
+
+                <div class="intro__inner">
+
+                    <div class="intro__text">
+						<h1 class="intro__title"><b>FITCENTER</b> - ЛУЧШИЙ ТРЕНАЖЕРНЫЙ ЗАЛ В МАХАЧКАЛЕ</h1>	
+					</div>
+
+					<div class="intro__suptext">
+						<p class="intro__titlep"><b>Акция!</b> При заказе абонемента на 3 месяца, ещё месяц в подарок</p>
+						<p class="intro__suptitle">Ваше тело в руках профессиональных фитнес тренеров. Проведем бесплатную неделю тренинга при покупке 3 месячного абонемента!</p>
+						<p class="intro__p"> Проспект Дахадаева, работаем без выходных! </p>
+					</div>
+
+					<div class="button">
+						<a class="btn" href="tel:+79298669600"><i class="fa-solid fa-phone-flip"></i>ЗАПИСАТЬСЯ!</a>
+					</div>
+
+                </div> <!-- intro__inner -->
+
+            </div> <!-- container -->
+
+        </div> <!-- intro -->
+
+		<section class="section">
+
+			<div class="container">
+
+				<div class="section__header">
+					<h2 class="section__title">FITCENTER</h2>
+					<p class="section__text">Мы любим фитнес и знаем о нем всё. Мы постоянно ищем новые идеи, разработки, технологии: мы создаём FITCENTER-уникальный клуб, где лучшие традиции фитнеса дополнены новейшими достижениями науки. Мы делаем это, чтобы вы могли достичь лучших результатов и изменили свою жизнь.</p>
+				</div> <!-- section__header -->
+
+				<div class="slayder">
+					<div class="slayder__content fade" data-slayd id="image">
+						<img src="image/tab/1.jpg" alt="Первый слайд">
+					</div>
+						
+					<div class="slayder__content fade" data-slayd id="image">
+						<img src="image/tab/2.jpg" alt="Второй слайд">
+					</div>				
+							
+					<div class="slayder__content fade" data-slayd id="image">
+						<img src="image/tab/3.jpg" alt="Третий слайд">
+					</div>
+		
+					<div class="slayder__content fade" data-slayd id="image">
+						<img src="image/tab/4.jpg" alt="Четвертый слайд">
+					</div>
+		
+					<div class="slayder__content fade" data-slayd id="image">
+						<img src="image/tab/5.jpg" alt="Пятый слайд">
+					</div>
+		
+					<div class="slayder__content fade" data-slayd id="image">
+						<img src="image/tab/6.jpg" alt="Шестой слайд">
+					</div>
+
+					<a class="prev" onclick="minusSlide()">❮</a>
+                    <a class="next" onclick="plusSlide()">❯</a>
+				</div>
+					
+				<div class="slayder__click">
+					<span class="slayder__click-span active" data-slayd-content onclick="currentSlide(1)"></span>  
+					<span class="slayder__click-span " data-slayd-content onclick="currentSlide(2)"></span>  
+					<span class="slayder__click-span " data-slayd-content onclick="currentSlide(3)"></span>  
+					<span class="slayder__click-span " data-slayd-content onclick="currentSlide(4)"></span>  
+					<span class="slayder__click-span " data-slayd-content onclick="currentSlide(5)"></span>  
+					<span class="slayder__click-span " data-slayd-content onclick="currentSlide(6)"></span>  
+				</div>
+
+			</div>	
+
+		</section>  
+		
+		<section class="section" id="card">
+			
+			<div class="container">
+				
+				<div class="section__prod">
+					<div class="section__glav"> 
+						<a href="#" data-scroll="#header" class="section__btn">Главная /</a>
+					</div> 
+					<h3 class="section__suptitle">Наши тренера</h3>
+					<p class="section__suptext">Запись строго от <b>16 лет</b></p>
+				</div> <!-- section__prod -->
+
+				<div class="card" id="card">
+					<div class="card__item">
+						<div class="card__inner">
+							<div class="card__img">
+								<a href="#" data-id="coachOne"><img src="image/card/card1.jpg" alt=""></a>
+							</div>
+						
+							<div class="card__text">
+								
+								<div class="card__social">
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-vk"></i>
+									</a>	
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-telegram"></i>
+									</a>
+									<a class="card__socialitem" href="str/coach.html" target="_blank">
+										<i class="fa-solid fa-circle-info"></i>
+									</a>	
+								</div> <!--card__social -->
+								
+							</div> <!--card__text -->
+
+						</div> <!-- card__inner -->
+
+						<div class="card__info">
+							<div class="card__name">Фитнес-Тренер Магомед</div>
+							<div class="card__opis">Стаж 8 лет. Мастер спорта международного класса по тяжелой атлетике</div>
+							<div class="card__sum">- 3.000(руб)</div>
+						</div> <!-- card__info -->
+
+					</div> <!-- card__item -->
+					
+					<div class="card__item">
+						<div class="card__inner">
+
+							<div class="card__img">
+								<a class="card__btn"><img src="image/card/card2.jpg" alt=""></a>
+							</div>
+
+							<div class="card__text">
+								
+								<div class="card__social">
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-vk"></i>
+									</a>	
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-telegram"></i>
+									</a>
+									<a class="card__socialitem" href="str/coach.html" target="_blank">
+										<i class="fa-solid fa-circle-info"></i>
+									</a>	
+								</div> <!--card__social -->
+
+							</div> <!--card__text -->
+
+						</div> <!-- card__inner -->
+
+						<div class="card__info">
+							<div class="card__name">Фитнес-Тренер Салам</div>
+							<div class="card__opis">Стаж 10 лет. Чемпион России по боевому самбо и чемпион мира по легкой атлетике.</div>
+							<div class="card__sum">- 3.000(руб)</div>
+						</div> <!-- card__info -->
+
+					</div> <!-- card__item -->
+					
+					<div class="card__item">
+
+						<div class="card__inner">
+
+							<div class="card__img">
+								<a href="#" class="card__btn"><img src="image/card/card3.jpg" alt=""></a>
+							</div>
+
+							<div class="card__text">
+								
+								<div class="card__social">
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-vk"></i>
+									</a>	
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-telegram"></i>
+									</a>
+									<a class="card__socialitem" href="str/coach.html" target="_blank">
+										<i class="fa-solid fa-circle-info"></i>
+									</a>	
+								</div> <!--card__social -->
+
+							</div> <!--card__text -->
+
+						</div> <!-- card__inner -->
+
+						<div class="card__info">
+							<div class="card__name">Фитнес-Тренер Абдулджалил</div>
+							<div class="card__opis">Стаж 5 лет. Чемпион России и Европы по лёгкой атлетике.</div>
+							<div class="card__sum">- 2.500(руб)</div>
+						</div> <!-- card__info -->
+
+					</div> <!-- card__item -->
+
+					<div class="card__item">
+
+						<div class="card__inner">
+
+							<div class="card__img">
+								<a class="card__btn"><img src="image/card/card4.jpg" alt=""></a>
+							</div>
+							
+							<div class="card__text">
+								
+								<div class="card__social">
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-vk"></i>
+									</a>	
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-telegram"></i>
+									</a>
+									<a class="card__socialitem" href="str/coach.html" target="_blank">
+										<i class="fa-solid fa-circle-info"></i>
+									</a>	
+								</div> <!--card__social -->
+
+							</div> <!--card__text -->
+
+						</div> <!-- card__inner -->
+
+						<div class="card__info">
+							<div class="card__name">Фитнес-Тренер Тимирхан</div>
+							<div class="card__opis">Стаж 7 лет. Чемпион Европы по тяжелой атлетике.</div>
+							<div class="card__sum">- 2.500(руб)</div>
+						</div>	<!-- card__info -->
+
+					</div> <!-- card__item -->
+					
+					<div class="card__item">
+
+						<div class="card__inner">
+
+							<div class="card__img">
+								<a class="card__btn"><img src="image/card/card5.jpg" alt=""></a>
+							</div>
+						
+							<div class="card__text">
+								
+								<div class="card__social">
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-vk"></i>
+									</a>	
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-telegram"></i>
+									</a>
+									<a class="card__socialitem" href="str/coach.html" target="_blank">
+										<i class="fa-solid fa-circle-info"></i>
+									</a>	
+								</div> <!--card__social -->
+
+							</div> <!--card__text --> 
+
+						</div> <!-- card__inner -->
+
+						<div class="card__info">
+							<div class="card__name">Тренер по кроссфиту Маматхан</div>
+							<div class="card__opis">Стаж 5 лет. Мастер спорта по гимнастике и чемпион России по легкой атлетике.</div>
+							<div class="card__sum">- 3.500(руб)</div>
+						</div> <!-- card__info -->
+
+					</div> <!-- card__item -->
+					
+					<div class="card__item"> 
+
+						<div class="card__inner">
+
+							<div class="card__img">
+								<a class="card__btn"><img src="image/card/card6.jpg" alt=""></a>
+							</div>
+							
+							<div class="card__text">
+								
+								<div class="card__social">
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-vk"></i>
+									</a>	
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-telegram"></i>
+									</a>
+									<a class="card__socialitem" href="str/coach.html" target="_blank">
+										<i class="fa-solid fa-circle-info"></i>
+									</a>	
+								</div> <!--card__social -->
+
+							</div> <!--card__text -->
+
+						</div> <!-- card__inner -->
+
+						<div class="card__info">
+							<div class="card__name">Тренер по кроссфиту МагомедРасул</div>
+							<div class="card__opis">Стаж 8 лет. Мастер спорта по аэробике. Кандидат в Мастера спорта по тяжелой и легкой атлетике.</div>
+							<div class="card__sum">- 2.800(руб)</div>
+						</div> <!-- card__info -->
+
+					</div> <!-- card__item -->
+
+					<div class="card__item" id="1">
+
+						<div class="card__inner">
+
+							<div class="card__img">
+								<a class="card__btn"><img src="image/card/card7.jpg" alt=""></a>
+							</div>
+							
+							<div class="card__text">
+								
+								<div class="card__social">
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-vk"></i>
+									</a>	
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-telegram"></i>
+									</a>
+									<a class="card__socialitem" href="str/coach.html" target="_blank">
+										<i class="fa-solid fa-circle-info"></i>
+									</a>	
+								</div> <!--card__social -->
+
+							</div> <!--card__text -->
+
+						</div> <!-- card__inner -->
+
+						<div class="card__info">
+							<div class="card__name">Тренер по боевым единоборствам Абдулла</div>
+							<div class="card__opis">22 года в спорте. 10 лет стажа в тренинге. Чемпион мира по боксу и чемпион европы по ММА.</div>
+							<div class="card__sum">- 3.000(руб)</div>
+						</div> <!-- card__info -->
+
+					</div> <!-- card__item -->
+
+					<div class="card__item">
+
+						<div class="card__inner">
+
+							<div class="card__img">
+								<a class="card__btn"><img src="image/card/card8.jpg" alt=""></button>
+							</div>
+							
+							<div class="card__text">
+								
+								<div class="card__social">
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-vk"></i>
+									</a>	
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+									<a class="card__socialitem" href="#" target="_blank">
+										<i class="fa-brands fa-telegram"></i>
+									</a>
+									<a class="card__socialitem" href="str/coach.html" target="_blank">
+										<i class="fa-solid fa-circle-info"></i>
+									</a>	
+								</div> <!--card__social -->
+
+							</div> <!--card__text -->
+
+						</div> <!-- card__inner -->
+
+						<div class="card__info">
+							<div class="card__name">Тренер по боевым единоборствам Магомед</div>
+							<div class="card__opis">15 лет в спорте. 8 лет стажа в тренинге. Чемпион мира и двухкратный чемпион европы по ММА и Дзюдо.</div>
+							<div class="card__sum">- 3.500(руб)</div>
+						</div> <!-- card__info -->
+
+					</div> <!-- card__item -->
+
+				</div> <!-- card -->
+				
+			</div> <!-- container -->
+
+		</section>
+
+		<div class="statistics" id="stat"> <!-- ЧТО-ТО ТАМ РУГАТЬСЯ БУДЕТ. ДА И ЗАЧЕМ! -->
+			
+			<div class="container">
+
+				<div class=stat>
+					
+					<div class="stat__item">
+						<div class="stat__n">8</div>
+						<div class="stat__text">Профессиональных тренеров</div>
+					</div>
+					
+					<div class="stat__item">
+						<div class="stat__n">365</div>
+						<div class="stat__text">дней в году</div>
+					</div>
+					
+					<div class="stat__item">
+						<div class="stat__n">900+</div>
+						<div class="stat__text">Положительных отзывов</div>
+					</div>
+					
+					<div class="stat__item">
+						<div class="stat__n">5</div>
+						<div class="stat__text">Минут от центра города</div>
+					</div>
+					
+					<div class="stat__item">
+						<div class="stat__n">50</div>
+						<div class="stat__text">парковочных мест</div>
+					</div> 
+
+				</div>	<!-- stat -->
+
+			</div> <!-- container -->
+
+		</div> <!-- statistics -->
+
+		<section class="section" id="info">
+
+			<div class="container">
+
+				<div class="info">
+					<div class="section__glav"> Инфо /</div>
+					<div class="info__suptitle">
+						<h2 class="info__h2">Коротко о нас</h2>
+					</div>
+					<p class="info__title">Мы любим фитнес и знаем о нем всё. Мы постоянно ищем новые идеи, разработки, технологии: мы создаём FITCENTER-уникальный клуб, где лучшие традиции фитнеса дополнены новейшими достижениями науки. Мы делаем это, чтобы вы могли достичь лучших результатов и изменили свою жизнь. </p>
+				</div>
+
+				<div class="info__card" id="what">
+					<div class="info__item">
+						<div class="info__info">
+							<div class="info__num">
+								001.
+							</div>
+							<div class="info__text">
+								Помещение площадью 750 кв.м. в 5 минутах езды от центра города.
+							</div>
+						</div>
+					</div>
+					<div class="info__item">
+						<div class="info__info">
+							<div class="info__num">
+								002.
+							</div>
+							<div class="info__text">
+								Максимально оптимизировали режим работы, чтобы каждый смог ОТДОХНУТЬ в нашем зале!
+							</div>
+						</div>
+					</div>	
+					<div class="info__item">
+						<div class="info__info">
+							<div class="info__num">
+								003.
+							</div>
+							<div class="info__text">
+								Работаем с толковыми тренерами и мастерами своего дела. Несем ответственность за качество обслуживания.
+							</div>
+						</div>
+					</div>	
+					<div class="info__item">
+						<div class="info__info">
+							<div class="info__num">
+								004.
+							</div>
+							<div class="info__text">
+								Бесплатный доступ к бассейну и криосауне нашим клиентам.
+							</div>
+						</div>
+					</div>	<!-- info__item	 -->
+				</div> <!-- info__card -->
+
+			</div> <!-- container -->
+
+		</section> <!-- section -->
+
+		<section class="section section--map" id="map">
+
+			<div class="map">
+
+				<div class="map__img">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1459.4869808082685!2d47.504465673175076!3d42.97882213895426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404ea05e9b6ea35d%3A0x783379e1e8a2426b!2z0YPQuy4g0JTQsNGF0LDQtNCw0LXQstCwLCAzMSwg0JzQsNGF0LDRh9C60LDQu9CwLCDQoNC10YHQvy4g0JTQsNCz0LXRgdGC0LDQvSwgMzY3MDAz!5e0!3m2!1sru!2sru!4v1667509161756!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+
+				<div class="map__text">
+
+					<div class="map__suptitle">
+						Приезжайте к нам, в лучший фитнес-центр Дагестана!
+					</div>
+
+					<div class="map__title">
+						г. Махачкала, <b>ул. Дахадаева 31</b>, д.1
+					</div>
+
+
+					<div class="map__foottitle">
+						<b>Перед поездкой к нам</b>, просьба, взять паспорт и шапочку для плавания, каждый должен соблюдать санитарию!
+					</div>  
+
+				</div>	<!-- map_text -->
+
+			</div>  <!-- map -->
+
+		</section>	<!-- section section--map -->
+
+		<footer class="footer">
+
+			<div class="container">
+
+				<div class="footer__inner">
+					
+					<div class="footer__left">
+						<div class="footer__logotype">
+							<img class="footer__logo" src="image/header/logo.png" alt="ЛОГО">
+						</div>
+					</div>
+
+					<div class="footer__right">
+						<div class="footer__header">
+
+							<div class="footer__leftcol">
+								<div class="footer__height">
+									<div class="footer__supcol" data-scroll="#card"> 
+										<a href="#">Тренера</a> 
+									</div>
+									<div class="footer__col">
+										<div><a href="#" data-scroll="#">Фитнес-Тренер</a></div>
+										<div><a href="#" data-scroll="#">Тренер по кроссфиту</a></div>
+										<div><a href="#" data-scroll="#">Тренер по БЕ</a></div>
+									</div>
+								</div>
+
+								<div class="footer__height">
+									<div class="footer__footcol">
+										<a href="#">Залы</a>
+									</div>
+									<div class="footer__col">
+										<div><a href="index.html">Фитнес-Зал</a></div>
+										<div><a href="str/bas.html">Бассейн</a></div>
+										<div><a href="str/krio.html">Криосауна</a></div>
+									</div>
+								</div>
+							</div> <!-- footer_bojki -->
+
+							<div class="footer__centercol">
+								<div class="footer__height">	
+
+									<div class="footer__supcol"> 
+										<a href="#" data-scroll="#info">Информация</a> 
+									</div>
+
+									<div class="footer__col">
+										<div><a href="str/vakansii.html">Вакансии</a></div>
+										<div><a href="str/kont.html">Контакты</a></div>
+									</div>	
+
+								</div>
+								<div class="footer__height">
+
+									<div class="footer__footcol"> 
+										<a href="#" data-scroll="#map">Наш адрес</a> 
+									</div>
+									<div class="footer__col"> 
+										<a href="https://goo.gl/maps/b6JYfiHjMFQEgzds5" target="_blank">ул. Дахадаева, 31, д.1</a> 
+									</div>
+
+								</div>
+							</div> <!-- footer_info -->
+
+							<div class="footer__rightcol">
+								<div>
+
+									<div class="footer__supcol"> 
+										<a href="#">Запись</a> 
+									</div>
+   
+									<div class="footer__num">
+										<a class="footer__tel" href="tel:+70298669600">+7 (929) 866-96-00</a>
+									</div>
+
+									<p>с 09:00 до 24:00 без выходных</p>
+
+									<div class="footer__what">
+										<a href="https://wa.me/79298669600?text=Здравствуйте%2C+у+меня+есть+вопрос">Написать в Whatsapp</a>
+									</div>
+
+									<div class="footer__mail">	
+										<a href="mailto:timagadjiev5@gmail.com">FINCENTER@mail.ru</a>
+									</div>
+
+								</div>
+							</div> <!-- footer__zakaz -->
+							
+						</div> <!-- footer__header -->
+						
+						<div class="footer__section">
+							<div>Подписывайтесь на нас:</div>
+
+							<div class="footer__vk">
+								<a href="#">ВКонтакте</a>
+							</div>
+
+							<div class="footer__insta">
+								<a href="#">Instagram</a>
+							</div>	
+						</div> <!-- footer__section -->
+
+						<div class="footer__footer">
+							
+							<div>
+
+								2022 © «FITCENTER» Воспроизведение или распространение материалов с сайта в любой форме может производиться только с вашей прихоти. При использовании материалов — ссылка на правообладателя и источник заимствования абсолютно не нужна.
+
+							</div>
+
+							<div>
+								
+								Сайт не является публичной офертой и носит информационный характер.
+
+							</div>
+
+							<a href="№">Политика конфиденциальности</a>
+
+						</div> <!-- footer__footer -->
+
+					</div> <!-- footer__right -->
+
+				</div> <!-- footer__inner -->
+
+			</div> <!-- container -->
+
+		</footer>
+
+		
+
+	</div> <!-- page -->
+	
+	<script src="js/app.js"></script>
+
+</body> 
+</html>
